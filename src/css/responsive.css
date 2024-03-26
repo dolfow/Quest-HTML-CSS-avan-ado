@@ -1,0 +1,58 @@
+@media(max-width:900px){
+    
+   body{
+    background: url('../images/bg-desktop.svg')   no-repeat;
+    background-color: var(--primary-dark);
+   }
+
+    
+    .header .header-container {
+        padding: 55px 25px;
+        width: 500px;
+ 
+    }
+    
+    .about {
+     
+        grid-template-columns: 1fr;
+    
+    }
+    
+    .about .image img{
+        margin: 0;
+        padding: 20px;
+        
+    
+    }
+    
+    .about .item{
+        padding: 0;
+        text-align: center;
+        margin: 0 ;
+    }
+    
+    .about .item h3{
+        font-size: 2rem;
+
+    }
+    
+    .about .item p{
+        font-size: 1.6rem;
+        margin: 23px 10px 0 10px;
+        padding: 0 25px 0 25px;
+  
+    }
+    
+    .about .item .btn{
+        margin: 27px auto;
+
+    }
+    
+    .footer {
+      
+        text-align: center;
+        padding-right: 0;
+
+    }
+
+}
